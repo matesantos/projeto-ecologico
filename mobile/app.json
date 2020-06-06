@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Ecoleta",
+    "slug": "mobile",
+    "platforms": [
+      "ios",
+      "android",
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f0f0f5"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+	 "bundleIdentifier": "com.com.matesystems.ecoleta",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+	"android": {
+      "package": "com.matesystems.ecoleta",
+      "versionCode": 1
+    }
+  }
+}
